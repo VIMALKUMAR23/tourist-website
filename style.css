@@ -70,6 +70,16 @@ a{
     position: relative;
 }
 
+.m-about{
+    position: relative;
+    top: -121px;
+}
+
+.m-address{
+    position: relative;
+    top: -116px;
+}
+
 .main-txt{
     position: absolute;
     top: 73%;
@@ -80,9 +90,11 @@ a{
 }
 
 .m-detail {
+    width: 70%; /* Adjust width as needed */
     word-wrap: break-word;
     overflow-wrap: break-word;
-    word-break: break-word;
+    position: absolute;
+    top: -18px;
 }
 
 /* servies section  */
